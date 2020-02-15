@@ -72,7 +72,8 @@ end
   
   def won?
     winner = nil
-    WIN_COMBINATIONS.each do | x |
+    WIN_COMBINATIONS.each do | combo |
+      
     
   
   
