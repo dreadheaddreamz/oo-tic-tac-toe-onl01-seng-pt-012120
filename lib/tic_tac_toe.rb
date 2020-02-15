@@ -52,10 +52,10 @@ end
           counter += 1
         end
       end
+      counter
+    end
     
-    
-    
-  def turn
+    def turn
     puts "Pick a number between 1-9"
     index = input_to_index(gets.chomp)
     if valid_move?(move)
@@ -69,6 +69,9 @@ end
   def current_player
     turn_count.even? "X" : "O"
   end
+  
+  def won
+    
   
   
   
