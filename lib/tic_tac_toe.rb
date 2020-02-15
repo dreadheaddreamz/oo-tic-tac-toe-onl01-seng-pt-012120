@@ -98,8 +98,13 @@ def over
 end
 
 def winner
-  won? ?@board[won[o]] = nil
+  won? ? @board[won[0]] : nil
 end
+
+def play
+  
+  
+  
   
     
   
