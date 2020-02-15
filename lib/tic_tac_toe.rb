@@ -73,7 +73,7 @@ end
   def won?
     winner = nil
     WIN_COMBINATIONS.each do | combo |
-      if combo.all { |win|
+      if combo.all { |win|@board|win}
     
   
   
