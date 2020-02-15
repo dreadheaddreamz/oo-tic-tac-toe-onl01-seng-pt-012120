@@ -43,6 +43,7 @@ end
       index.between?(0,8) && !position_taken?(index)
     end
   def turn
-    
+    puts "Pick a number between 1-9"
+    input = 
   
 end
