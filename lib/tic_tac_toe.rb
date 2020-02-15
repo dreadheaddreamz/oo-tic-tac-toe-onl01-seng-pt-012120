@@ -70,7 +70,9 @@ end
     turn_count.even? "X" : "O"
   end
   
-  def won
+  def won?
+    winner = nil
+    WIN_COMBINATIONS.each do | x |
     
   
   
