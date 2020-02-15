@@ -98,7 +98,7 @@ def over
 end
 
 def winner
-  won? ?@board
+  won? ?@board[won[o]]
   
     
   
