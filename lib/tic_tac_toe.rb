@@ -98,7 +98,8 @@ def over
 end
 
 def winner
-  won? ?@board[won[o]]
+  won? ?@board[won[o]] = nil
+end
   
     
   
