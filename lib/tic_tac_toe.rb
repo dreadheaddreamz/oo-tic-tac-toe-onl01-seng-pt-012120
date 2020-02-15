@@ -54,5 +54,8 @@ end
   end
   def turn_count
     turn_count.even? "X" : "O"
+  end
+  
+  
   
 end
