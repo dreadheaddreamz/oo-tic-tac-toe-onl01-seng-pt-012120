@@ -96,6 +96,9 @@ end
 def over
   won? || draw?
 end
+
+def winner
+  won? ?
   
     
   
