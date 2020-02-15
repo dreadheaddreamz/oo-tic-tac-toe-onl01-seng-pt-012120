@@ -90,7 +90,7 @@ def full?
 end
 
 def draw?
-  @board == 9
+  
   
     
   
