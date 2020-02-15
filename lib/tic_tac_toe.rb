@@ -86,8 +86,11 @@ end
 end
 
 def full?
-  turn_count = 9
+  turn_count == 9
 end
+
+def draw?
+  @board == 9
   
     
   
