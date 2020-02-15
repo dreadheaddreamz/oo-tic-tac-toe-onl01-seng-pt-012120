@@ -46,5 +46,6 @@ end
     puts "Pick a number between 1-9"
     index = input_to_index(gets.chomp)
     if valid_move?(move)
+      move(index, current_player)
   
 end
