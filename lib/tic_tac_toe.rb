@@ -84,6 +84,9 @@ end
   end
   winner
 end
+
+def full
+  
     
   
   
