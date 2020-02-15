@@ -44,6 +44,6 @@ end
     end
   def turn
     puts "Pick a number between 1-9"
-    index = input_to_index.chomp
+    index = input_to_index(gets.chomp)
   
 end
