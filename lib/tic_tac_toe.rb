@@ -85,7 +85,9 @@ end
   winner
 end
 
-def full
+def full?
+  turn_count = 9
+end
   
     
   
