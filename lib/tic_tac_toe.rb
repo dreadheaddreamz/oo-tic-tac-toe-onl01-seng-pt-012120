@@ -47,5 +47,10 @@ end
     index = input_to_index(gets.chomp)
     if valid_move?(move)
       move(index, current_player)
+      display_board
+    else
+      turn
+    end
+  end
   
 end
