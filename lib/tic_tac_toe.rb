@@ -42,6 +42,7 @@ end
    def valid_move?(index)
       index.between?(0,8) && !position_taken?(index)
     end
+    
   def turn
     puts "Pick a number between 1-9"
     index = input_to_index(gets.chomp)
@@ -52,7 +53,8 @@ end
       turn
     end
   end
-  def turn_count
+  
+  def current_player
     turn_count.even? "X" : "O"
   end
   
