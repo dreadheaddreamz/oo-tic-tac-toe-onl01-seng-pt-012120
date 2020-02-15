@@ -94,7 +94,8 @@ def draw?
 end
 
 def over
-  
+  won? || draw?
+end
   
     
   
